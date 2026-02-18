@@ -22,7 +22,7 @@ from transformers import (
     TrainingArguments,
 )
 
-MODEL_NAME = "answerdotai/ModernBERT-base"
+MODEL_NAME = "answerdotai/ModernBERT-large"
 MAX_LEN = 512
 SEED = 42
 
