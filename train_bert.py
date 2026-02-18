@@ -92,8 +92,10 @@ def main():
         num_train_epochs=20,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=64,
-        learning_rate=2e-5,
-        fp16=True,
+        learning_rate=6e-5,
+        # fp16=True,
+        bf16=True,
+        tf32=True,  # <-- added
         logging_steps=50,
         seed=SEED,
         report_to="none",
