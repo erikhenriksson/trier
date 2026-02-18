@@ -89,13 +89,13 @@ def main():
         save_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="accuracy",
-        num_train_epochs=20,
+        num_train_epochs=10,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=64,
         learning_rate=6e-5,
         # fp16=True,
         bf16=True,
-        tf32=True,  # <-- added
+        # tf32=True,  # <-- added
         logging_steps=50,
         seed=SEED,
         report_to="none",
